@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        @apply selection:outline-transparent selection:rounded-lg selection:bg-primary-500 selection:text-gray-900;
+    }
+
+    body {
+        @apply w-full h-full bg-white dark:bg-zinc-950;
+    }
+
+    input, select, textarea {
+        @apply w-full h-16 py-0 px-4 text-gray-100 border border-solid border-zinc-900 bg-zinc-900 rounded-xl;
+        @apply focus-visible:outline-none focus-visible:border-zinc-800;
+        @apply placeholder:text-sm placeholder:uppercase placeholder:text-gray-600;
+        @apply disabled:cursor-not-allowed disabled:bg-zinc-600;
+    }
+
+    textarea {
+		@apply resize-none h-64 my-2 py-4;
+	}
+}
