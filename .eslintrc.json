@@ -4,13 +4,10 @@
         "next/core-web-vitals"
     ],
     "rules": {
-        "@typescript-eslint/no-explicit-any": [
-            "off"
-        ],
         "prettier/prettier": [
             "error",
             {
-                "printWidth": 120,
+                "printWidth": 80,
                 "tabWidth": 4,
                 "singleQuote": true,
                 "trailingComma": "all",
