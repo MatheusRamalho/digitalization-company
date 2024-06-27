@@ -1,10 +1,9 @@
 import Image from 'next/image'
 
-import { SocialMedia } from '../SocialMedia'
-import { List } from '../List'
-import { SwitchTheme } from '../SwitchTheme'
+import { SocialMedia } from '@/components/SocialMedia'
+import { List } from '@/components/List'
 
-import logoPng from '@/assets/imgs/logo.png'
+import logoPng from '@/assets/imgs/logo.svg'
 
 export function Footer() {
     const currentYear = new Date().getFullYear()
@@ -12,10 +11,7 @@ export function Footer() {
     return (
         <footer className="w-full p-8 border-t border-t-gray-100 dark:border-t-gray-600 text-gray-500 text-sm">
             <div className="container mx-auto">
-                <Image
-                    src={logoPng}
-                    alt="Logo marca da Digitaliza tecnologia, nuvem em tons de laranja com o texto Digitaliza Tecnologia"
-                />
+                <Image src={logoPng} alt="Logo marca" />
 
                 <div className="flex justify-between gap-10 flex-col sm:flex-row my-8">
                     <address className="flex-1 px-2 not-italic">
@@ -24,8 +20,8 @@ export function Footer() {
                         </h5>
 
                         <p className="leading-7 text-gray-500 dark:text-gray-400">
-                            Rua fulano de tal, 15, Apto. 01, Ciclano - Teófilo
-                            Otoni/MG
+                            Rua Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Quam, ipsam.
                         </p>
 
                         <p className="leading-7 text-gray-500 dark:text-gray-400 mb-8">
@@ -71,7 +67,7 @@ export function Footer() {
                         <List.Item
                             name="Localizaçãor"
                             iconName="map-pin"
-                            link="https://goo.gl/maps/4TTMMLfZT7wDmpeK9"
+                            link="https://maps.app.goo.gl/AjGnzBSaz5XWr7UGA"
                         />
                     </List.Root>
                 </div>
@@ -81,10 +77,6 @@ export function Footer() {
                         {currentYear} &copy; Matheus Ramalho. Todos os direitos
                         reservados
                     </p>
-
-                    <div className="order-1 sm:order-2">
-                        <SwitchTheme />
-                    </div>
                 </div>
             </div>
         </footer>

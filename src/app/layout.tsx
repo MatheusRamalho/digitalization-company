@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 
-import '../styles/globals.css'
+import '@/styles/globals.css'
 
 const roboto = Roboto({
     weight: ['300', '400', '500', '700'],
@@ -26,7 +26,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={`bg-white dark:bg-zinc-900 ${roboto.className}`}>
-                <div className="relative w-full min-h-screen before:content-[''] before:z-[-1] before:absolute before:top-0 before:right-0 before:size-80 before:rounded-full before:bg-orange-500 before:blur-[200px]">
+                <div className="relative w-full min-h-screen before:content-[''] before:z-[-1] before:absolute before:top-0 before:right-0 before:size-80 before:rounded-full before:bg-green-500 before:blur-[200px]">
                     {children}
                 </div>
             </body>

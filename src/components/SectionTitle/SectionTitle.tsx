@@ -7,7 +7,7 @@ interface SectionTitleProps {
 export function SectionTitle({ sobtitle, title, subtitle }: SectionTitleProps) {
     return (
         <header className="mb-12">
-            <h5 className="text-orange-400 uppercase text-2xl tracking-widest mb-4">
+            <h5 className="text-green-400 uppercase text-2xl tracking-widest mb-4">
                 {sobtitle}
             </h5>
 
@@ -17,7 +17,7 @@ export function SectionTitle({ sobtitle, title, subtitle }: SectionTitleProps) {
 
             <h2 className="text-gray-700 dark:text-gray-100 font-bold break-words text-4xl sm:text-7xl leading-[120%]">
                 {subtitle}
-                <span className="text-orange-400">.</span>
+                <span className="text-green-400">.</span>
             </h2>
         </header>
     )

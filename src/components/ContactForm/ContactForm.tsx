@@ -4,8 +4,8 @@ import * as zod from 'zod'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 
-import { Button } from '../Button'
-import { FormField } from '../FormField'
+import { Button } from '@/components/Button'
+import { FormField } from '@/components/FormField'
 
 const contactSchema = zod.object({
     name: zod.string(),

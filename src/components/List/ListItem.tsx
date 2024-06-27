@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Icon } from '../Icon'
+import { Icon } from '@/components/Icon'
 import dynamicIconImports from 'lucide-react/dynamicIconImports'
 
 interface ListItemProps {
@@ -11,7 +11,7 @@ interface ListItemProps {
 
 export function ListItem({ name, iconName, link }: ListItemProps) {
     return (
-        <li className="w-full my-3 flex items-center gap-2 text-gray-500 dark:text-gray-300 hover:!text-orange-500">
+        <li className="w-full my-3 flex items-center gap-2 text-gray-500 dark:text-gray-300 hover:!text-green-500">
             {link ? (
                 <Link
                     className="w-full leading-7 flex items-center gap-2"

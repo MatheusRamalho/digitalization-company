@@ -10,7 +10,7 @@ export function OurNumbers({ number, text }: OurNumbersProps) {
                 {number}+
             </h4>
 
-            <span className="block my-4 w-12 h-2 bg-orange-600 mx-auto" />
+            <span className="block my-4 w-12 h-2 bg-green-600 mx-auto" />
 
             <span className="text-xl uppercase font-medium text-gray-500 dark:text-gray-400">
                 {text}

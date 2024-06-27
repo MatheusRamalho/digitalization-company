@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-import { Icon } from '../Icon'
+import { Icon } from '@/components/Icon'
 import dynamicIconImports from 'lucide-react/dynamicIconImports'
 
 interface SocialMediaItemProps {
@@ -15,7 +15,7 @@ export function SocialMediaItem({
     link,
 }: SocialMediaItemProps) {
     return (
-        <li className="w-fit text-gray-400 hover:text-orange-500">
+        <li className="w-fit text-gray-400 hover:text-green-500">
             <Link
                 className="w-full leading-7 flex items-center gap-2"
                 href={link}

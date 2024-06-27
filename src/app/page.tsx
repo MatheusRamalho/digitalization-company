@@ -14,27 +14,25 @@ import { SectionTitle } from '@/components/SectionTitle'
 import { ServiceCard } from '@/components/ServiceCard'
 
 import testeImg from '@/assets/imgs/image.jpg'
-import brandImg from '@/assets/imgs/logo.png'
+import brandImg from '@/assets/imgs/logo.svg'
 
 export default function Home() {
     return (
         <>
             <Section id="section-hero" name="Hero">
-                <div className=""></div>
-
                 <SectionTitle
-                    sobtitle="Digitaliza Tecnologia"
+                    sobtitle="Nome da empresa"
                     title="Digitalização &"
-                    subtitle="Desenvolvimento web visual"
+                    subtitle="Desenvolvimento web"
                 />
 
                 <p className="text-gray-500 dark:text-gray-400 text-xl sm:text-2xl leading-[200%]">
-                    Somos uma empresa focada em digitalização de documentos
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Harum, animi.
                 </p>
 
                 <p className="text-gray-500 dark:text-gray-400 text-xl sm:text-2xl leading-[200%]">
-                    e desenvolvimento web, visando a melhor experiência para o
-                    usuário
+                    Lorem ipsum dolor sit amet.
                 </p>
             </Section>
 
@@ -47,32 +45,34 @@ export default function Home() {
                     <div className="flex-1 order-2 md:order-1">
                         <SectionTitle
                             sobtitle="Quem Somos"
-                            title="Digitaliza"
-                            subtitle="Tecnologia"
+                            title="Nome"
+                            subtitle="da empresa"
                         />
 
                         <p className="text-gray-500 dark:text-gray-400 text-xl leading-[200%]">
-                            Fundada em 28 de setembro de 2017, em Teófilo Otoni
-                            - MG, a Digitaliza surgiu com a finalidade de
-                            facilitar o trabalho de pequenas e grandes empresas,
-                            públicas e privadas.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Beatae, libero quidem tempore, doloremque ipsa
+                            eum facere alias numquam commodi atque voluptas
+                            quisquam qui cupiditate. Omnis, laudantium dolore
+                            maxime iste itaque facilis? Veritatis nostrum
                         </p>
 
                         <p className="text-gray-500 dark:text-gray-400 text-xl leading-[200%]">
-                            A DIGITALIZA busca oferecer a prestação de serviços
-                            com alto nível de profissionalismo, realizando todas
-                            as suas tarefas de forma competente e responsável.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Beatae, libero quidem tempore, doloremque ipsa
+                            eum facere alias numquam commodi atque voluptas
                         </p>
 
                         <p className="text-gray-500 dark:text-gray-400 text-xl leading-[200%]">
-                            A empresa busca cumprir as tarefas que lhe foram
-                            designadas, com vistas no êxito dos resultados
-                            alcançados.
+                            Lorem ipsum dolor sit amet consectetur adipisicin
+                            quisquam qui cupiditate. Omnis, laudantium dolore
+                            maxime iste itaque facilis? Veritatis nostrum
                         </p>
 
                         <p className="text-gray-500 dark:text-gray-400 text-xl leading-[200%]">
-                            Com muito empenho, a empresa dedica-se a atender a
-                            demanda permanente com superação de expectativas.
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Beatae, libero quidem tempore, doloremque ipsa
+                            eum facere alias numquam commodi atque voluptas
                         </p>
 
                         <div className="mt-10">
@@ -81,7 +81,7 @@ export default function Home() {
                     </div>
 
                     <div className="relative w-full h-96 sm:size-96 md:size-[31.5rem] rounded-2xl order-1 md:order-2 mb-20">
-                        <div className="absolute top-[-50px] left-0 sm:left-[-24px] w-10 sm:w-16 h-[15.5rem] bg-orange-500" />
+                        <div className="absolute top-[-50px] left-0 sm:left-[-24px] w-10 sm:w-16 h-[15.5rem] bg-green-500" />
 
                         <Image
                             src={testeImg}
@@ -160,15 +160,15 @@ export default function Home() {
                 customClass="border-b border-b-gray-50 dark:border-b-gray-700"
             >
                 <SectionTitle
-                    sobtitle="Mais sobre à Digitaliza"
+                    sobtitle="Mais sobre"
                     title="Confiança"
                     subtitle="& Honestidade"
                 />
 
                 <p className="text-gray-500 dark:text-gray-400 text-xl sm:text-2xl leading-10 sm:leading-[200%]">
-                    Entenda por que somos os melhores do mercado no que fazemos,
-                    e por que você cliente deve escolher a Digitaliza para
-                    melhorar o seu negócio, a sua empresa.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Illo rerum veniam suscipit id beatae cupiditate
+                    reprehenderit odio ab blanditiis est!
                 </p>
 
                 <div className="flex flex-col justify-center gap-y-4 gap-x-2 sm:flex-row sm:flex-wrap mt-10 lg:gap-x-4">
@@ -208,10 +208,10 @@ export default function Home() {
                     </h3>
 
                     <div className="flex items-center justify-center lg:justify-between flex-wrap gap-3 mt-14">
-                        <OurNumbers number={1000} text="Clientes" />
-                        <OurNumbers number={1000} text="Digitalizacões" />
-                        <OurNumbers number={1000} text="Papeis" />
-                        <OurNumbers number={1000} text="Clientes" />
+                        <OurNumbers number={500} text="Clientes" />
+                        <OurNumbers number={10000} text="Digitalizacões" />
+                        <OurNumbers number={100000} text="Papeis" />
+                        <OurNumbers number={200} text="Scanners" />
                     </div>
                 </div>
             </Section>
@@ -249,18 +249,18 @@ export default function Home() {
                         <div className="absolute inset-0 bg-gray-50 dark:bg-zinc-950" />
 
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3797.2430929363563!2d-41.511492800000006!3d-17.874083199999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb376a54dbea7c5%3A0x9bfa55f7124643d0!2sR.%20Carlos%20Alberto%20da%20Cunha%20Mello%2C%20170%20-%20Apto%20101%20-%20Dr.%20Laerte%20Laender%2C%20Te%C3%B3filo%20Otoni%20-%20MG%2C%2039803-079!5e0!3m2!1spt-BR!2sbr!4v1683585735956!5m2!1spt-BR!2sbr"
-                            loading="lazy"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3873095.7620044053!2d-48.09135740742286!3d-18.55960293581294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa690a165324289%3A0x112170c9379de7b3!2sMinas%20Gerais!5e0!3m2!1spt-PT!2sbr!4v1719528583701!5m2!1spt-PT!2sbr"
                             className="border-none w-full h-96 md:h-full grayscale rounded-xl md:rounded-none md:rounded-l-xl"
+                            loading="lazy"
                         />
 
-                        <div className="absolute bottom-[-24px] left-20 h-8 md:h-14 w-40 md:w-[15.5rem] bg-orange-500" />
+                        <div className="absolute bottom-[-24px] left-20 h-8 md:h-14 w-40 md:w-[15.5rem] bg-green-500" />
                     </div>
 
                     <div className="flex-1 h-[500px] bg-gray-50 dark:bg-zinc-950 p-10 rounded-r-xl order-1 md:order-2">
                         <h2 className="text-gray-700 dark:text-gray-100 font-bold text-5xl leading-[120%]">
                             Contate-nos
-                            <span className="text-orange-400">.</span>
+                            <span className="text-green-400">.</span>
                         </h2>
 
                         <p className="mt-5 mb-10 text-xl text-gray-400">
@@ -272,13 +272,13 @@ export default function Home() {
                                 <div className="flex gap-3 uppercase tracking-wider text-gray-400 dark:text-gray-300">
                                     <Icon
                                         name="phone"
-                                        className="size-5 text-orange-500"
+                                        className="size-5 text-green-500"
                                     />
                                     Telefone
                                 </div>
 
                                 <Link
-                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-orange-200"
+                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-green-200"
                                     href="tel:3399999999"
                                     target="_blank"
                                 >
@@ -290,13 +290,13 @@ export default function Home() {
                                 <div className="flex gap-3 uppercase tracking-wider text-gray-400 dark:text-gray-300">
                                     <Icon
                                         name="message-square"
-                                        className="size-5 text-orange-500"
+                                        className="size-5 text-green-500"
                                     />
                                     WhatsApp
                                 </div>
 
                                 <Link
-                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-orange-200"
+                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-green-200"
                                     href="https://api.whatsapp.com/send?phone=553399999999&"
                                     target="_blank"
                                 >
@@ -308,13 +308,13 @@ export default function Home() {
                                 <div className="flex gap-3 uppercase tracking-wider text-gray-400 dark:text-gray-300">
                                     <Icon
                                         name="mail"
-                                        className="size-5 text-orange-500"
+                                        className="size-5 text-green-500"
                                     />
                                     E-mail
                                 </div>
 
                                 <Link
-                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-orange-200"
+                                    className="block text-md text-gray-500 dark:text-gray-400 pl-10 hover:text-green-200"
                                     href="mailto:contato@email.com.br"
                                     target="_blank"
                                 >

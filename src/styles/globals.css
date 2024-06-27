@@ -4,6 +4,6 @@
 
 @layer base {
     * {
-        @apply selection:outline-transparent selection:rounded-lg selection:bg-orange-500 selection:text-gray-900;
+        @apply selection:outline-transparent selection:rounded-lg selection:bg-green-500 selection:text-gray-900;
     }
 }
